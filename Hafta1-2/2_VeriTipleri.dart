@@ -47,7 +47,8 @@ void main() {
   // İnterpolasyon
   // metinsel ifadeler + ile birleştirildiği gibi $ simgesiyle de
   // kolaylıkla birleştirilebilir.
-  // Ayrıca ${} ifadesiylede değişkene bağlı extension metodları görebiliriz.
+  // Ayrıca ${} ifadesiylede değişkene bağlı extension
+  // metodlar ile işlemler yapabilirsiniz.
   String ad = "İbrahim";
   String soyad = "AYAZ";
   String adSoyad1 = ad + " " + soyad;

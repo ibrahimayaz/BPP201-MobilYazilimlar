@@ -14,7 +14,13 @@ main() {
 
   String text1 = 1.toString();
   assert(text1 == "1");
+
+// double --> String
+  String text0 = 3.14159.toString();
+// double --> String (Virgülden sonra 3 karakteri al)
   String text2 = 3.14159.toStringAsFixed(3);
 
   String text3 = 34.57878.toStringAsFixed(0);
+
+  print(text0);
 }

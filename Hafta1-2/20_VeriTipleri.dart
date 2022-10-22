@@ -97,7 +97,7 @@ void main() {
 // Listteki jenerikliğin(generic) aynısı buradada geçerlidir.
 // Tanım kümesi belirlenerek key ve value sınırlanabilir.
 // ÖNEMLİ: Sözlükde aynı isme sahip iki anahtar olmamalı.
-  Map sozluk = {
+  Map<dynamic, dynamic> sozluk = {
     "Ad": "İbrahim",
     "Soyad": "AYAZ",
     "Cinsiyet": false
@@ -126,6 +126,7 @@ void main() {
 // Run Time...
   final e;
   e = 2.71;
+
   print(e);
   final double kdv;
   kdv = 1.18;

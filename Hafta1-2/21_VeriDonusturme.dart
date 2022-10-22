@@ -1,7 +1,9 @@
 main() {
   // String --> int
   var one = int.parse("1");
-  int five = int.parse("5");
+  int five = int.parse("3.14");
+  String sayi = "5555";
+  double test = double.parse(sayi);
 
 // String --> double
 
@@ -16,7 +18,8 @@ main() {
   assert(text1 == "1");
 
 // double --> String
-  String text0 = 3.14159.toString();
+  double sayi55 = 5.14;
+  String text0 = sayi55.toString();
 // double --> String (Virgülden sonra 3 karakteri al)
   String text2 = 3.14159.toStringAsFixed(3);
 

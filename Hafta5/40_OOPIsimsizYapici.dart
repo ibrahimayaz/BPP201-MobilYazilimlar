@@ -1,6 +1,7 @@
 void main() {
-  Insan insan1 = new Insan("Cem", 23, 18, 17);
-  print(insan1.SelamVer());
+  Insan insan1 = new Insan("Mehmet", 23, 18, 17);
+
+  print(insan1.Ad);
 }
 
 class Insan {
@@ -23,9 +24,7 @@ class Insan {
 
   // Bu bir yapılandıcır ve parametresizdir.
   // Aslında zaten varolan bir yapılandırıcıdır.
-  // Insan(){
-
-  // }
+  // Insan() {}
 
   Insan(String ad, int yas, double boy, double kilo) {
     // buradaki this anahtar cümlesi sınıfı temsil etmektedir.

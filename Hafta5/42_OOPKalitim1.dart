@@ -7,9 +7,9 @@
  */
 
 main() {
-  var b = new BeyazEsya();
+  var b = new Buzdolabi();
 
-  print(b.Ac());
+  print(b.Kapat());
 }
 
 //Single-Level Inheritance
@@ -17,7 +17,7 @@ main() {
 class BeyazEsya {
   var UretimYili;
 
-  BeyazEsya({this.UretimYili = 1995});
+  // BeyazEsya({this.UretimYili = 1995});
 
   Kapat() {
     return "Beyaz Eşya kapatıldı.";

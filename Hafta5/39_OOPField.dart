@@ -1,6 +1,7 @@
+import '../Hafta3-4/odev1.dart';
+
 void main(List<String> args) {
-  var p = new Personel();
-  print(p.Kimdir());
+  print(Personel.Aciklama);
 }
 
 class Personel {

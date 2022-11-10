@@ -4,10 +4,10 @@
  * Değişkenler, değerleri depolamak ve bellekte konum rezervi etmek için kullanılır.
  * Stack ve Heap yapısına Bknz. 
  * 
- * DEĞİŞKEN TANIMLANIRKEN BİLİNMESİ GEREKİRKEN
+ * DEĞİŞKEN TANIMLANIRKEN BİLİNMESİ GEREKENLER ÖNEMLİ NOKTALAR
  * değişken adları alt tire(_) hariç özel karakter veya türkçe karakter içermemeli.
  * değişken adları dartın özel fonksiyonları ile aynı olamaz. Örneğin: class,
- * void, bool, extendsgibi özel isimlerde değişken tanımlayamazsınız.
+ * void, bool, extends gibi özel isimlerde değişken tanımlayamazsınız.
  * veri tipleri farklı olsa dahi iki değişken adı aynı olamaz.
  * 
  * Söz dizimi (Syntax) = veritipi degiskenAdi = degisdeninAlacagiDeger;

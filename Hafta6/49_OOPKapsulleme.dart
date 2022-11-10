@@ -1,16 +1,16 @@
 /**Kapsülleme (Getter ve Setter işlemleri):
  * Hiçbir dış şüpheli nesnenin verileri ve işlevselliğini değiştirmemesini 
- * sağlamak için verileri ve işlevleri tek bir varlıkta (sınıf olarak 
+ * sağlamak için verileri ve işlevleri tek bir değişkende (sınıf olarak 
  * adlandırılır) birleştirme eylemidir. Böylece özellikleri daha güvenilir ve
  * daha kullanışlı hale getirebiliriz.
  * 
  */
-//Örnek 1: Bu BankaDetay sınıfına ait bakiye alanı kolaylıkla değiştirilebilir
+//Örnek 1: BankaDetay sınıfına ait bakiye alanı kolaylıkla değiştirilebilir
 //ve aynı zamanda erişilebilir durumdadır.
-//49_OOPKapsulleme2.dart dosyasına bakın
+//49_OOPKapsulleme2.dart dosyasına bakınız.
 
 //Asıl soru şu: Şimdi, hiçbir dış sınıfın ona erişimi olmayacak şekilde,
-//bakiye alanını nasıl özel hale getirebiliriz?
+//bakiye alanını nasıl özel veya erişilemez hale getirebiliriz?
 //Java, C# gibi dillerde bir alanın erişimini belirlemek için private, public,
 //ve protected sözcükleri kullanılır. Ancak bu belirteçler Dart'ta geçerli değil.
 // Dart dilinde _ simgesi ile ilgili alanı özel yani private yapabiliriz.

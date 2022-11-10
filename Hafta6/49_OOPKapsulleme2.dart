@@ -3,7 +3,7 @@ class BankaDetay {
 }
 
 void main() {
-  final burak = BankaDetay();
+  var burak = BankaDetay();
   burak.bakiye = 1000;
 
   print(burak.bakiye);

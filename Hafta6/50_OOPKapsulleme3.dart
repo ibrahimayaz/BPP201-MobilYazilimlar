@@ -7,7 +7,7 @@ class Ogrenci {
   //Fields
   String Ad = "İbrahim";
   String Soyad = "ayaz";
-  //Getter
+  //Getter = get ifadesiyle tanımlanan alan
   String get AdSoyad => Ad + " " + Soyad.toUpperCase();
 
 //-----

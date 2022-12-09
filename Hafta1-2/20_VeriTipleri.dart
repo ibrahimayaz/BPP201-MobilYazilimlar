@@ -98,7 +98,7 @@ void main() {
 // Tanım kümesi belirlenerek key ve value sınırlanabilir.
 // ÖNEMLİ: Sözlükde aynı isme sahip iki anahtar olmamalı.
   Map<dynamic, dynamic> sozluk = {
-    "Ad": "İbrahim",
+    5: "İbrahim",
     "Soyad": "AYAZ",
     "Cinsiyet": false
   }; // Map<dynamic, dynamic>

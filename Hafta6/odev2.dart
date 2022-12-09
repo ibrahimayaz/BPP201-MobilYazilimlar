@@ -5,7 +5,7 @@ class Canlilar {
 
   Canlilar({this.Ad, this.Yas, this.Cinsiyet});
 
-  String Yuru() => "${this.Ad} isimli canlı yürüyor.";
+  String Yuru() => "${this.Ad} isimli canlı yürüyor..";
 }
 
 class Insan extends Canlilar {
@@ -15,9 +15,9 @@ class Insan extends Canlilar {
   static double? Vize;
   static double? Final;
 
-  Insan(String ad, String soyad, bool gozluk, double gelir) {
-    this.Ad = ad;
-    this.Soyad = soyad;
+  Insan(String Soyad, bool gozluk, double gelir) {
+    this.Ad = super.Ad;
+    this.Soyad = Soyad;
     this.GozlukluMu = gozluk;
     this.AylikGelir = gelir;
   }
@@ -44,7 +44,7 @@ void main(List<String> args) {
 
   print(c.Yuru());
 
-  var i = new Insan("İbrahim", "AYAZ", true, 18000);
+  var i = new Insan("AYAZ", true, 18000);
 
   print(i.Yuru());
   print(i.Kos());

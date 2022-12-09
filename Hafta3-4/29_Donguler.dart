@@ -6,10 +6,10 @@ main() {
   // }
 
   //for-in
-  // var liste = [50, 75, 80, 90, 85, 10, 100];
-  // for (var i in liste) {
-  //   print(i);
-  // }
+  var liste = [50, 75, 80, 90, 85, 10, 100];
+  for (var i in liste) {
+    print(i);
+  }
 
   // for (var i = 0; i < liste.length; i++) {
   //   print(liste[i]);

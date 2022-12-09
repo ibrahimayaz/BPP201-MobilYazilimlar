@@ -28,13 +28,13 @@ class Pizza {
 }
 
 void main(List<String> args) {
-  final p1 = new Pizza.Standart(5);
-  final p2 = new Pizza.Ozel(
-      Sucuk: false,
-      Sebze: true,
-      Mantar: true,
-      KisiSayisi: 10,
-      HamurTipi: "Kalın");
+  var p1 = new Pizza.Standart();
+  // var p2 = new Pizza.Ozel(
+  //     Sucuk: false,
+  //     Sebze: true,
+  //     Mantar: true,
+  //     KisiSayisi: 10,
+  //     HamurTipi: "Kalın");
   print("Standart Pizza\n" + p1.Sunum());
-  print("Özel Pizza\n" + p2.Sunum());
+  // print("Özel Pizza\n" + p2.Sunum());
 }

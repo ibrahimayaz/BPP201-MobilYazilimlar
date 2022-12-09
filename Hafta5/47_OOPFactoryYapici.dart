@@ -8,7 +8,7 @@
 
 class Holding {
   Holding();
-  factory Holding.HoldingeYonlendir() {
+  factory Holding.Ahmet() {
     return Holding();
   }
   factory Holding.SaticiyaYonlendir() {
